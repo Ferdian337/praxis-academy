@@ -1,0 +1,142 @@
+1. attrib +r report.txt
+// File jadi read only
+
+2. arp /a
+//
+Interface: 192.168.0.110 --- 0x9
+  Internet Address      Physical Address      Type
+  192.168.0.1           d8-32-14-cd-0a-30     dynamic
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+Interface: 192.168.56.2 --- 0xa
+  Internet Address      Physical Address      Type
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  
+  
+3. assoc .txt
+  // assoc : The term 'assoc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ assoc .txt
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (assoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    
+4. at /delete
+  The AT command has been deprecated. Please use schtasks.exe instead.
+
+  This operation will delete all scheduled jobs.
+  Do you want to continue this operation? (Y/N) [N]: n
+  
+5. cd user
+  PS C:\Users\user>
+  
+6. change port
+  No serial ports were found.
+  
+7. cipher
+  Listing C:\Users\MainUser\Documents\
+  New files added to this directory will not be encrypted.
+  U Private
+  U hello.doc
+  U hello.txt
+  
+8. dir | clip
+  // copy list direktori
+  
+9. copy report.txt
+    copy : Cannot overwrite the item C:\Users\user\report.txt with itself.
+  At line:1 char:1
+  + copy report.txt
+  + ~~~~~~~~~~~~~~~
+      + CategoryInfo          : WriteError: (C:\Users\user\report.txt:String) [Copy-Item], IOException
+      + FullyQualifiedErrorId : CopyError,Microsoft.PowerShell.Commands.CopyItemCommand
+      
+10. color 87
+  \\ warna powershell jadi hitam putih
+
+11. date 08.03.2007
+  \\ tanggal pada sistem berubah menjadi 3 agustus 2007
+  
+12. dir
+  \\ menampilkan seluruh direktori dan file
+  
+13. del work.txt
+  work.txt, delete (Y/N)?
+  
+14. close
+  \\ menutup powershell
+  
+15. getmac
+  \\ menampilkan MAC address
+  
+16. help
+  TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts.
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete.
+
+    Without help files, Get-Help displays auto-generated help for cmdlets,
+    functions, and scripts.
+
+
+  ONLINE HELP
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online
+
+  UPDATE-HELP
+    To download and install help files on your computer:
+
+       1. Start Windows PowerShell with the "Run as administrator" option.
+       2. Type:
+
+          Update-Help
+
+    After the help files are installed, you can use the Get-Help cmdlet to
+    display the help topics. You can also use the Update-Help cmdlet to
+    download updated help files so that your local help files are always
+    up-to-date.
+
+    For more information about the Update-Help cmdlet, type:
+
+       Get-Help Update-Help -Online
+       
+17. hostname
+  DESKTOP-MOBGORL
+  
+18. ipconfig
+  \\ menampilkan konfigurasi TCP/IP
+  
+19. openfiles '.\Assassin''s Creed® Unity 14_10_2018 14.08.49.png'
+  ERROR: Invalid syntax.
+  Type "OPENFILES /?" for usage.
+  
+20. query session
+   SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE
+   services                                    0  Disc
+  >console           user                      3  Active
